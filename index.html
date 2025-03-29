@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI AgriTech Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>AI AgriTech Assistant</h1>
+    
+    <div class="feature-section">
+      <h2>Crop Disease Detection</h2>
+      <div class="upload-container">
+        <input type="file" id="cropImage" accept="image/*">
+        <button id="analyzeBtn">Analyze Crop</button>
+      </div>
+      <div id="analysisResult" class="result-container"></div>
+    </div>
+    
+    <div class="feature-section">
+      <h2>Weather Information</h2>
+      <div id="weatherData" class="weather-container">
+        <p>Loading weather data...</p>
+      </div>
+    </div>
+    
+    <div class="feature-section">
+      <h2>Farming Knowledge</h2>
+      <select id="cropSelector">
+        <option value="">Select a crop</option>
+        <option value="rice">Rice</option>
+        <option value="wheat">Wheat</option>
+        <option value="cotton">Cotton</option>
+      </select>
+      <div id="cropInfo" class="info-container"></div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
