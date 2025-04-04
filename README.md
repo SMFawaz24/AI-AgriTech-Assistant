@@ -20,4 +20,4 @@ git clone https://github.com/SMFawaz24/AI-AgriTech-Assistant.git
 ![Screenshot 2025-03-27 014557](https://github.com/user-attachments/assets/b901eaac-ffe4-413b-b6dc-75d4d928f49e)
 
 ## Demo Video
-[Watch Demo](https://link-to-your-demo-video)
+https://youtu.be/w6E4mm-Z8Gs
